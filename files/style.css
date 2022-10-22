@@ -1,0 +1,194 @@
+/***********************************************/
+/*                                             */
+/*   DHTML-Menü                                */
+/*                                             */
+/***********************************************/
+
+#navcontainer{
+  width: 100%;
+  border-top: 1px solid #008800;
+  padding: 0px;
+  font-family: Verdana, Arial, Tahoma;
+}
+#navcontainer ul{
+  list-style: none;
+  margin: 0;
+  padding: 0 0 1em 0;
+  border: none;
+}
+#navcontainer li{
+  border-bottom: 1px solid #008800;
+  margin: 0;
+}
+#navcontainer li.item a{
+  display: block;
+  padding: 5px 5px 5px 0.5em;
+  border-left: 10px solid #66CC66;
+  border-right: 10px solid #66CC66;
+  background-color: #88EE88;
+  color: #000000;
+  text-decoration: none;
+  width: auto;
+}
+#navcontainer li.item a:hover{
+  border-left: 10px solid #77DD77;
+  border-right: 10px solid #77DD77;
+  background-color: #99FF99;
+  color: #000000;
+}
+#navcontainer li.title{
+  display: block;
+  padding: 2px;
+  font-size: 9px;
+  border-left: none;
+  border-right: none;
+  background-color: #008800;
+  color: #00FF00;
+  text-decoration: none;
+  width: auto;
+}
+#navcontainer li.sel_item a{
+  display: block;
+  padding: 5px 5px 5px 0.5em;
+  border-left: 10px solid #00CC00;
+  border-right: 25px solid #00CC00;
+  background-color: #66EE00;
+  color: #000000;
+  text-decoration: none;
+  width: auto;
+}
+#navcontainer li.sel_item a:hover{
+  border-left: 10px solid #22DD22;
+  border-right: 25px solid #22DD22;
+  background-color: #77FF11;
+  color: #000000;
+}
+#navcontainer li.my_item a{
+  display: block;
+  padding: 5px 5px 5px 0.5em;
+  border-left: 10px solid #00CC00;
+  border-right: 10px solid #00CC00;
+  background-color: #66EE00;
+  color: #000000;
+  text-decoration: none;
+  width: auto;
+}
+#navcontainer li.my_item a:hover{
+  border-left: 10px solid #22DD22;
+  border-right: 10px solid #22DD22;
+  background-color: #77FF11;
+  color: #000000;
+}
+
+/***********************************************/
+/*                                             */
+/*   Seitenstyle                               */
+/*                                             */
+/***********************************************/
+
+
+
+body{
+  background-color: #FFFFFF;
+  margin-left: 200px;
+}
+body,table,input,select,textarea {
+  font-family: Verdana, Arial, Tahoma;
+  font-size: 11px;
+  color: #004400;
+}
+.userinfo{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #006600;
+  background-color: #00AA00;
+}
+.rahmen{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #006600;
+  background-color: #DDFF99;
+}
+.title1{
+  background-color: #66CC44;
+  padding: 5px;
+  padding-left: 5px;
+  font-size:12px;
+  font-weight: bold;
+}
+.title2{
+  background-color: #88FF55;
+  padding: 5px;
+  padding-left: 20px;
+  font-size:12px;
+  font-weight: bold;
+}
+.title3{
+  background-color: #DDFF99;
+  padding: 5px;
+  padding-left: 20px;
+  font-size:12px;
+  font-weight: bold;
+}
+.title4{
+  background-color: #9CFF9C;
+  padding: 5px;
+  padding-left: 20px;
+  font-size:12px;
+  font-weight: bold;
+}
+
+.error{
+  border-style: solid;
+  border-width: 1px;
+  border-color: #FF0000;
+  background-color: #E3C0C0;
+  color: #992A2A;
+}
+a:link,
+a:visited,
+a:active{
+  background: transparent;
+  color: #000000;
+  text-decoration: underline;
+}
+a:hover{
+  background: transparent;
+  color: #006600;
+}
+
+/***********************************************/
+/*                                             */
+/*   Meldung                                   */
+/*                                             */
+/***********************************************/
+
+.info{
+  background: #DDFF99;
+  border: 1px solid #00AA00;
+  margin: 200px auto 0px auto;
+  text-align: left;
+  width: 500px;
+}
+.info h4{
+  background: #00AA00;
+  border-bottom: 1px solid #00AA00;
+  color: #000000;
+  font-size: 14px;
+  margin: 0;
+  padding: 5px;
+}
+.info p{
+  margin: 0;
+  padding: 5px;
+}
+.infofoot{
+	background: #00AA00;
+	border-top: 1px solid #00AA00;
+	text-align: center;
+}
+
+.Bereich, .Feld { background-color:#FFFFFF; }
+.Auswahl { background-color:#FFFFFF; }
+.Check, .Radio { background-color:#DDFF99;  }
+.Button { background-color: #88EE88;color: #000000; border:1px solid #000000;  }
